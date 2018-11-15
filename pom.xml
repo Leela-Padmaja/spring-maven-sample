@@ -11,7 +11,11 @@
 	</properties>
 	 
 	<dependencies>
-	 
+	 <dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.11</version>
+</dependency>
 		<!-- Servlet API -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
